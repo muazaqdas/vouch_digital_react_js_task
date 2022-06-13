@@ -1,13 +1,88 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.sider{
+  height: 100vh;
+  /* display: none; */
+}
+
+
+.title{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.formTitle{
+  color: #033047;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.checkbox{
+  text-align:end ;
+  padding-right:10px;
+}
+.forgot{
+  text-align:start;
+  padding-left:45px;
+}
+@media only screen and (max-width: 600px){
+  .formTitle{
+      font-size: 1.6rem;
+
+  }
+  .checkbox{
+    font-size: 0.5rem;
+  }
+  .forgot{
+    font-size: 0.5rem;
+    padding-left:0px;
+  }
+
+}
+
+
+
+.startButton, .loginButton{
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 0.65rem !important;
+  width: 140px;
+}
+
+.form-item{
+  margin: 1.5% 20% !important;
+  text-align: center;
+  
+}
+
+.formSpace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ant-btn-primary{
+  width: 60%;
+}
+.ant-form label{
+  font-size: 12px !important;
+}
+
+.form-item{
+  padding: 20px;
 }
