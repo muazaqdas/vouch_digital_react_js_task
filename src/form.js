@@ -3,7 +3,6 @@ import axios from 'axios';
 import React from 'react';
 
 import './index.css'
-import './form.css'
 
 const App=()=>{
     const onFinish = async(values)=>{
@@ -22,7 +21,7 @@ const App=()=>{
     >
       <Form.Item className='form-item'>
         <div className='formTitle'>Welcome Back</div>
-        <div>Sub-title text goes here</div>
+        <div className='subtitle'>Sub-title text goes here</div>
       </Form.Item>
       <Form.Item
         className='form-item'
@@ -39,16 +38,16 @@ const App=()=>{
         />
       </Form.Item>
       <Form.Item style={{justifyContent:"center", alignItems:"center", textAlign:"center"}}>
-        <Button style={{ backgroundColor:"#033047", borderStyle:"none"}} type="primary" htmlType="submit" className="login-form-button">
+        <Button  style={{ backgroundColor:"#033047", borderStyle:"none"}} type="primary" htmlType="submit" className="login-form-button SubmitButtton">
           Log in
         </Button>
       </Form.Item>
       <Form.Item>
       <Row>
-        <Col span={12} name="remember" valuePropName="checked" noStyle>
-          <Checkbox className="checkbox" >Remember Password</Checkbox>
+        <Col lg={12} sm={14} name="remember" valuePropName="checked" noStyle>
+          <Checkbox > <span className="checkboxText" >Remember Password</span></Checkbox>
         </Col>
-        <Col span={12} style={{textAlign:"start", paddingLeft:"45px"}}>
+        <Col lg={12} sm={10}>
         <a className="login-form-forgot forgot"  href=".">
           Forgot password?
         </a>

@@ -20,37 +20,57 @@ code {
   /* display: none; */
 }
 
+.form-item{
+  padding: 20px 0;
+}
+
 
 .title{
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 900;
 }
+
 .formTitle{
   color: #033047;
   font-size: 2rem;
   font-weight: 900;
+  line-height: 1;
 }
-.checkbox{
-  text-align:end ;
-  padding-right:10px;
+.subtitle{
+  line-height: 1;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  opacity: 60%;
+}
+.ant-checkbox{
+  padding-left:110px !important;
+}
+.checkboxText{
+  font-size: 0.8rem;
+  color: #033047;
 }
 .forgot{
-  text-align:start;
-  padding-left:45px;
+  color: #033047;
+  font-size: 0.8rem;
+  padding-left:55px;
 }
 @media only screen and (max-width: 600px){
   .formTitle{
       font-size: 1.6rem;
 
   }
-  .checkbox{
+  .ant-checkbox{
+    padding-left:70px !important;
+  }
+  .checkboxText{
     font-size: 0.5rem;
   }
   .forgot{
     font-size: 0.5rem;
-    padding-left:0px;
+    padding-left:35px;
   }
+
 
 }
 
@@ -83,6 +103,3 @@ code {
   font-size: 12px !important;
 }
 
-.form-item{
-  padding: 20px;
-}

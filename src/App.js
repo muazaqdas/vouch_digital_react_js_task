@@ -1,7 +1,6 @@
 import React from 'react';
 import 'antd/dist/antd.min.css';
 import './index.css';
-import './App.css';
 import { Button, Col, Layout, Row } from 'antd';
 import { Content, Header } from 'antd/lib/layout/layout';
 
