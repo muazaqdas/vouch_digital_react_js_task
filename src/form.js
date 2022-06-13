@@ -7,7 +7,7 @@ import './index.css'
 const App=()=>{
     const onFinish = async(values)=>{
         try {const {data} = await axios.post("https://reqres.in/api/login",{...values})
-        alert(data.token)}catch(err){alert(err.response.data.error)}
+        alert("token: " + data.token)}catch(err){alert(err.response.data.error)}
     }
 
     return (
