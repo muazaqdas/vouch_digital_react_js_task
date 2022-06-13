@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vouch_digital_react_js_task/static/css/main.0044b54a.css",
+    "main.js": "/vouch_digital_react_js_task/static/js/main.cc3ab69f.js",
+    "static/media/1.jpeg": "/vouch_digital_react_js_task/static/media/1.ff4f9bbbbc98d066ff06.jpeg",
+    "index.html": "/vouch_digital_react_js_task/index.html",
+    "main.0044b54a.css.map": "/vouch_digital_react_js_task/static/css/main.0044b54a.css.map",
+    "main.cc3ab69f.js.map": "/vouch_digital_react_js_task/static/js/main.cc3ab69f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0044b54a.css",
+    "static/js/main.cc3ab69f.js"
+  ]
+}
